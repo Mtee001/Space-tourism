@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: url('../IMG/home/background-home-mobile.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#nav .logo{
+    margin: 1.5rem 0 0 1.5rem;
+}
+#nav .nav{
+    margin: 2.5rem 1.5rem 0 0; 
+}
+main .body-text{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+main .body-text .top-text{
+    text-transform: uppercase;
+    font-family: 'barlow condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    margin-bottom: 2rem;
+}
+main .body-text .center-text{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Bellefair', sans-serif;
+    -webkit-text-stroke: 2px #ffffff;
+    font-weight: normal;
+}
+main .body-text .bottom-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+} 
+.explore-button{
+    font-family: 'Bellefair', sans-serif;
+    font-size: 20px;
+    /* text-align: center; */
+    border: 1px solid transparent;
+    background: #ffffff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10rem auto;
+    position: relative;
+}
+.explore-button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0b0d17;
+    position: absolute;
+    left: 33px;
+    top: 65px;
+    
+    
+}
+
